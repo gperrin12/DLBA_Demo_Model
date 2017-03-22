@@ -5,13 +5,11 @@ This is a repository of the ipython notebooks I've used to create the DLBA demol
 The model with Motor City Mapping data has the following precision and accuracy on a slice of test data:
 
 Precision = 95.67%
-
 Accuracy = 95.06%
 
 The model with NO Motor City Mapping data has the following precision and accuracy on a slice of test data:
 
 Precision = 92.68%
-
 Accuracy = 93.61%
 
 So, there is some loss in accuracy and precision by losing out on the Motor City Mapping data (namely, the building conidition attributes), but it is not significant. 
